@@ -3,15 +3,15 @@ package Lesson4;
 public class HomeWork4_10 {
     public static void main(String[] args) {
         int[][] matrix1 = {
-                {1, 0, 0, 0},
-                {0, 1, 0, 0},
-                {0, 0, 0, 0}
+                {1, 2, 8, 3},
+                {1, 1, 4, 6},
+                {8, 3, 7, 2}
         };
         int[][] matrix2 = {
                 {1, 2, 3},
-                {1, 1, 1},
-                {0, 0, 0},
-                {2, 1, 0}
+                {4, 5, 1},
+                {7, 4, 4},
+                {2, 1, 3}
         };
         int rows1 = matrix1.length;
         int cols1 = matrix1[0].length;
