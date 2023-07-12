@@ -13,9 +13,9 @@ public class CreditCard {
         balance += amount;
     }
 
-    void withdraw(int amount) {
-        if (balance >= amount) {
-            balance -= amount;
+    void withdraw() {
+        if (balance >= 300) {
+            balance -= 300;
         } else {
             System.out.println("Мало денег");
         }
@@ -28,11 +28,11 @@ public class CreditCard {
     public static void main(String[] args) {
         CreditCard card1 = new CreditCard("3553535", 0);
         CreditCard card2 = new CreditCard("9898989", 0);
-        CreditCard card3 = new CreditCard("4141414", 600);
+        CreditCard card3 = new CreditCard("4141414",  600);
 
         card1.deposit(100000);
         card2.deposit(777);
-        card3.withdraw(300);
+        card3.withdraw();
 
         card1.printCardInfo();
         card2.printCardInfo();
