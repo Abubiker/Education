@@ -10,7 +10,7 @@ public class HomeWork4_2 {
         int size = scanner.nextInt();
         int[] numbers = new int[size];
         for (int i = 0; i < size; i++) {
-            numbers[i] = (int) (Math.random() * 100); // Генерируем случайное число от 0 до 99
+            numbers[i] = (int) (Math.random() * 100);
         }
         int max = numbers[0];
         int min = numbers[0];
